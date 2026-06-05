@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import random
 
 # Database connection
-from database.connection import get_db, init_db, SessionLocal
+
 from models.models import User, Wallet, Transaction, Match, Player, FantasyTeam, Contest, ContestEntry, PlayerPerformance
 from services.auth import register_user, login_user
 from services import match_service, contest_service, wallet_service, points_service
